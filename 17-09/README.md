@@ -5,7 +5,7 @@
 ### Interprété
 Traduit du code en langage machine ***à la volée***, c-a-d ***pendant l'exécution***.
 - python
-- mathlab
+- matlab
 - bash
 
 ![REPL (Read-Eval-Print Loop) ](./images/interpreteur_python.png)
@@ -27,13 +27,22 @@ Mélange des deux: commencer par ***exécuter à la volée*** puis ***compiler l
 - JavaScript
 - Java
 
-## Contrôle explicite de la mémoire
+## Avantages du C
+
+### Contrôle explicite de la mémoire
+
 Python ***fait des choix*** de gestion de mémoire automatiquement en manipulant des objets.
 Ces choix sont souvent pas appropriés pour des systèmes critiques (défense, aéronautique, médical, transports).
 
 > [!NOTE]
 > **Exemple:**
 > Python utilise souvent de la mémoire allouée dynamiquement.
-> Cette méthode d'allocation de mémoire est souvent évitée dans certaines applications due à son temps d'exécution imprédictible (WCET).
+> Cette méthode d'allocation de mémoire est souvent évitée dans certaines applications due à son temps ***d'exécution imprédictible*** (WCET).
 
 Les langages systèmes comme le c forcent au programmeur à travailler avec la mémoire directement, ***offrant un contrôle absolu*** sur celle-ci.
+
+### Très rapide
+C'est un langage haut niveau mais il reste très proche du langage machine.
+
+### Très économe en espace
+Dû à ça simplicité on a beacoup de contrôle sur les instructions exécutées et donc la taille des binaires.
