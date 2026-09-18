@@ -48,3 +48,4 @@ Imprimer l'espace aloué en mémoire d'une variable ***en octets/bytes (8 bits)*
 ![types de donées en c](https://en.wikipedia.org/wiki/C_data_types)
 
 
+https://github.com/user-attachments/assets/799efb96-a163-4189-9078-9c9514c68330
