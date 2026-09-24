@@ -1,3 +1,18 @@
+# Linux
+Linux est un Noyeau (français) / kernel (anglais) :
+C'est principalement un ordonnanceur (français) / scheduler (anglais).
+
+En haut de l'image:
+Tout les programmes **semblent** s'exécuter en même temps.
+
+Mais la réalité ressemble plus au bas de l'image:
+Les programmes s'exécutent l'un après l'autre en succession rapide.
+**Tout ça grâce à l'ordonnanceur.** (Il ordonne l'exécution des tâches par le procésseur).
+C'est lui qui décide quand chaque programme va s'exécuter et pendant combien de temps.
+![](./images/TaskExecution.gif)
+
+
+
 # Les pointeurs
 
 ## La notion d'adresse
