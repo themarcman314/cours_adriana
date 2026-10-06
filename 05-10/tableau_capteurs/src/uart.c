@@ -136,6 +136,7 @@ PUTCHAR_PROTOTYPE {
 	/* Place your implementation of fputc here */
 	/* e.g. write a character to the USART3 and Loop until the end of
 	 * transmission */
+	if(ch == '\n') __io_putchar('\r');
 	HAL_UART_Transmit(&huart2, (uint8_t *)&ch, 1, 0xFFFF);
 
 	return ch;
