@@ -39,7 +39,7 @@ Lecture_Capteurs()
 
 --------------------------------------------------
 
- 
+
 
 PROCEDURE MAJ_MESURES
 
@@ -54,30 +54,30 @@ PROCEDURE MAJ_MESURES
 Les 2 fonctions factorisées :
 FONCTION DECALAGE
 
-NouveauTableau[] = Decalage(Tableau[], Valeur)
+    NouveauTableau[] = Decalage(Tableau[], Valeur)
 
-Pour i allant de 0 à indice_max_Tableau - 1
+    Pour i allant de 0 à indice_max_Tableau - 1
 
-Tableau[i] = Tableau [i+1]
+    Tableau[i] = Tableau [i+1]
 
-Tableau[indice_max_Tableau] = Valeur
+    Tableau[indice_max_Tableau] = Valeur
 
-Return Tableau[]
+    Return Tableau[]
 
 --------------------------------------------------
 
- 
+
 
 FONCTION CALCUL_MOY_INSTANT
 
-Moy_Tableau Calcul_Moy_Instant(Tableau[])
+    Moy_Tableau Calcul_Moy_Instant(Tableau[])
 
-Moyenne = 0
+    Moyenne = 0
 
-Pour chaque i de Tableau
+    Pour chaque i de Tableau
 
-Moyenne = Moyenne + Tableau[i]
+    Moyenne = Moyenne + Tableau[i]
 
-Moyenne = Moyenne / (indice_max_Tableau + 1)
+    Moyenne = Moyenne / (indice_max_Tableau + 1)
 
-Return Moyenne
+    Return Moyenne

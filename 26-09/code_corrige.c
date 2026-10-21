@@ -43,6 +43,7 @@ uint32_t fibonacci_c(uint8_t iterations) {
 	uint32_t b = 2;
 	uint32_t r = 0;
 	for (uint8_t i = 0; i < iterations; i++) {
+		int y;
 		r = a + b;
 		a = b;
 		b = r;
@@ -54,5 +55,5 @@ uint32_t fibonacci_c(uint8_t iterations) {
 int main(void) {
 	// Global_Init();
 	fibonacci_asm(10);
-	fibonacci_c(10);
+	uint32_t tibo = fibonacci_c(10);
 }

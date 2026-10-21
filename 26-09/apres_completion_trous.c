@@ -49,7 +49,8 @@ uint32_t fibonacci_c(uint8_t iterations) {
 		a = b;
 		b = r;
 	}
-	printf("%u\r\n", r);
+	char buffer[50];
+	sprintf(buffer, "%u\r\n", r);
 	return r;
 }
 
